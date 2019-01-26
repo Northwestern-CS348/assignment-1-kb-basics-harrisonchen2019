@@ -34,8 +34,6 @@ class KnowledgeBase(object):
             if unique == True:
                 self.facts.append(fact)
 
-
-
         print("Asserting {!r}".format(fact))
         
     def kb_ask(self, fact):
